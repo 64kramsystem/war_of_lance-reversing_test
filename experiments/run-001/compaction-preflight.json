@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "Two disposable 90000-character tool results, with a separate probe profile advertising 65536 context tokens and compaction at 80%; the model server stayed at 131072.",
+  "observed": "A checkpoint request reached the pinned local model; subsequent prompts contained the checkpoint summary and the original task was completed.",
+  "main_profile_context": 131072,
+  "main_profile_changed": false,
+  "outside_model_used": false,
+  "raw_evidence": "runs/run-001/compaction.log",
+  "model_prompt_evidence": [
+    "runs/run-001/model-prompts/000161240246.txt",
+    "runs/run-001/model-prompts/000161282931.txt",
+    "runs/run-001/model-prompts/000161300387.txt",
+    "runs/run-001/model-prompts/000161303177.txt"
+  ],
+  "duration_ms": 84737,
+  "input_tokens_including_compaction": 124602,
+  "output_tokens_including_compaction": 1253,
+  "codewhale_max_output_tokens": 16384
+}

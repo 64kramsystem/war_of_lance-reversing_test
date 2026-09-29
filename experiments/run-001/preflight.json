@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "model": "qwen3.8-flash-next-nvfp4",
+  "check": "Nonce file read/write and real DOSBox/Ghidra MCP calls through CodeWhale",
+  "turns": 8,
+  "model_request_input_tokens_total": 133348,
+  "model_output_tokens_total": 2016,
+  "model_request_duration_ms_total": 116763,
+  "human_corrections_to_preflight": 0,
+  "raw_evidence": "runs/run-001/preflight.log",
+  "note": "Nonce comparison excludes the input file line terminator. Qwen independently resolved deferred tool discovery."
+}

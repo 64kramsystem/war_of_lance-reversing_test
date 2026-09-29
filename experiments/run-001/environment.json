@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-09-29T16:21:04.656858+00:00",
+  "os": "Linux",
+  "kernel": "7.2.7-070207-sav-generic",
+  "cpu": "AMD Ryzen 9 9950X3D 16-Core Processor",
+  "gpu": "NVIDIA GeForce RTX 5090, 615.71.09, 32607 MiB",
+  "ghidra": "12.1.4 PUBLIC",
+  "ghidra_mcp": "0.107.0",
+  "dosbox_x": "2026.08.02 SDL2, locally built with remote debugging",
+  "dosbox_binary_sha256": "d53381022ad5503b31a1cc6cf1997724f56f9824c89d031d7a0a801f6b10de5c",
+  "model_record": "experiments/model.json",
+  "served_context": 131072,
+  "slots": 1,
+  "observed_weight_buffers_mib": {
+    "CUDA0": 24793.18,
+    "CUDA_Host": 45204.52,
+    "CPU_Mapped": 51880.13
+  },
+  "raw_model_metadata": "runs/run-001/props.json",
+  "raw_lifecycle_events": "runs/run-001/events.jsonl",
+  "service_binding": "Model HTTP, QMP and GDB all verified on 127.0.0.1",
+  "input_sources": "Game assets and local DOS prerequisites match their recorded hashes."
+}

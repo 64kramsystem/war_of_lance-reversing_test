@@ -1,0 +1,15 @@
+{
+  "run_id": "run-001",
+  "setup_started_at_utc": "2026-09-29T16:12:48Z",
+  "starting_commit": "73117d64d5c40527f9100dd1aba2d789f1992d0f",
+  "model_record": "experiments/model.json",
+  "status": "preflight_passed",
+  "authorization": "User instructed proceed after selecting Qwen3.8 Flash NVFP4 + Q8_0.",
+  "human_active_seconds": null,
+  "assistant_role": "Environment setup and observation. Any corrective guidance or outside-model analysis must be separately recorded.",
+  "completion": "A faithful browser port with checked reference scenarios; no claim of success based only on task exit or self-tests.",
+  "raw_logs": "runs/run-001/",
+  "preflight": "experiments/run-001/preflight.json",
+  "compaction_preflight": "experiments/run-001/compaction-preflight.json",
+  "inputs": "experiments/run-001/frozen-SHA256SUMS"
+}

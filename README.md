@@ -27,7 +27,9 @@ Before starting, freeze the task prompt, environment settings and a set of refer
 
 Use `experiments/interventions.csv` to log human help, including setup, prompt writing, reading progress, verification, corrections, restarts and time spent diagnosing tools. Record active human time separately from elapsed time and model usage. Count corrections against the original run even if they lead to a successful retry. Log help from other models separately, with the supplied prompt and output, so it cannot be mistaken for Qwen working alone.
 
-This repository's initial preparation used another coding assistant. No human timer was running during that preparation; setup time is **unmeasured**, not zero. The intervention log starts empty. Preserve raw run transcripts locally under ignored `runs/`; review them for personal information and credentials before publishing selected evidence.
+This repository's initial preparation used another coding assistant. No human timer was running during that preparation; setup time is **unmeasured**, not zero. Preserve raw run transcripts locally under ignored `runs/`; review them for personal information and credentials before publishing selected evidence.
+
+Run 001 is recorded under [experiments/run-001](experiments/run-001), with its frozen task prompt and reference-scenario definitions. `scripts/run_session.py` owns the local model, DOSBox and Ghidra processes, records their lifecycle, and starts one CodeWhale attempt after preflight. Create `runs/run-001/stop` to request shutdown; it also shuts down its child processes when the attempt ends or fails. Raw transcripts and model prompts remain under ignored `runs/run-001/`. The lifecycle script expects the prepared scratch disk and isolated Ghidra profile for this run; it is not a fresh-clone installer.
 
 ## Agent guidance and tools
 

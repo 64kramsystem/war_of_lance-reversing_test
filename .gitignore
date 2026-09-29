@@ -21,6 +21,7 @@ node_modules/
 /scratch/
 /runs/
 /models/
+/capture/
 
 # Supply clean DOS runtime prerequisites locally; never publish used disks.
 /assets/ms_dos_500/
