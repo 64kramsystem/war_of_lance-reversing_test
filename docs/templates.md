@@ -8,6 +8,6 @@ These files were adapted from local agent and reversing templates for this publi
 - `AGENTS.reversing-shared.md` removes a dependency on a private development skill, simplifies target-specific control-flow rules, and replaces full-listing export requirements with saved evidence relevant to the port.
 - `AGENTS.md` is a project-specific entry point; the source entry point contained personal paths and unrelated tooling instructions.
 - Ghidra MCP configurations are copied from the reversing template. Matching `dos-mcp` entries were added using the locally installed server's documented interface. Executable paths are relative; no credentials are included.
-- The source Qwen launcher targets a different model and was not copied. Model configuration belongs in the recorded experiment setup.
+- The source Qwen launcher targets a different model and was not copied. A dedicated `.codewhale/qwen-local.toml` now selects Qwen3.8 Flash NVFP4 + Q8_0, with the checkpoint and prior runtime settings pinned in `experiments/model.json`.
 
-The DOSBox template expects a separately supplied clean DOS boot image and `DEBUG.COM`. Used images from other projects were not copied into this repository.
+The DOSBox template expects a separately supplied DOS boot image and `DEBUG.COM`. The local checkout has copies from an unchanged tracked baseline, verified against `assets/runtime-SHA256SUMS`; these prerequisites remain ignored and are not published.

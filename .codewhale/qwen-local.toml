@@ -1,0 +1,15 @@
+default_text_model = "qwen3.8-flash-next-nvfp4"
+provider = "qwen-local"
+reasoning_effort = "xhigh"
+auto_compact = true
+auto_compact_threshold_percent = 80
+allow_shell = true
+telemetry = false
+
+[providers.qwen-local]
+kind = "openai-compatible"
+base_url = "http://127.0.0.1:8081/v1"
+# Placeholder for the unauthenticated loopback server, not a credential.
+api_key = "local"
+model = "qwen3.8-flash-next-nvfp4"
+context_window = 131072

@@ -40,7 +40,7 @@ Ghidra and DOSBox MCP configurations are supplied for `.mcp.json`, `.codewhale/m
 ../../local/dos-mcp/.venv/bin/dos-mcp
 ```
 
-Those paths fit a checkout under `~/code/` with tools under `~/local/`; other installations must adjust their local configuration. These MCPs supply analysis and emulator control, not model inference. Configure the installed Qwen Flash separately and record the exact resolved model; the source template's Qwen 27B launcher was deliberately omitted.
+Those paths fit a checkout under `~/code/` with tools under `~/local/`; other installations must adjust their local configuration. These MCPs supply analysis and emulator control, not model inference. The selected model is **Qwen3.8 Flash NVFP4 + Q8_0**, pinned in [experiments/model.json](experiments/model.json), with a [launch command and CodeWhale profile](docs/model.md). The configuration uses the previously tuned 131,072-token context and `xhigh` reasoning.
 
 `dos-mcp` requires the [DOSBox-X remote-debug fork](https://github.com/64kramsystem/dosbox-x), built with `--enable-remotedebug`, and a guest configured with `[dosbox] qmpserver=true` on loopback port 4444. Ghidra's debugger bridge uses loopback port 8099. With CodeWhale, pass an absolute `CODEWHALE_MCP_CONFIG` path:
 
@@ -48,4 +48,4 @@ Those paths fit a checkout under `~/code/` with tools under `~/local/`; other in
 export CODEWHALE_MCP_CONFIG="$PWD/.codewhale/mcp.json"
 ```
 
-Before executing the game, supply a clean `assets/ms_dos_500/ms_dos_500_hdd.img` matching the DOSBox template's geometry and `assets/DEBUG.COM`. These local runtime prerequisites are ignored and are not bundled. Never reuse a disk from another analysis or mount the base image writable; work on a scratch copy under `scratch/`. No emulator or MCP session is started by this repository.
+The local checkout now has `assets/ms_dos_500/ms_dos_500_hdd.img` and `assets/DEBUG.COM`, copied from an unchanged tracked DOS baseline after inspecting its file listing and startup commands. They are ignored and are not included in the public repository. Fresh clones must supply matching local prerequisites; verify them with `sha256sum -c assets/runtime-SHA256SUMS`. The image is 33,546,240 bytes and matches geometry `512,63,2,520`; its FAT partition begins at byte 32,256. Never reuse a modified working disk or mount the base image writable; work on a scratch copy under `scratch/`. The local base image is read-only. No emulator or model inference session has been started for this experiment.

@@ -1,0 +1,63 @@
+{
+  "name": "Qwen3.8 Flash Next",
+  "quantization": "NVFP4 + Q8_0",
+  "format": "GGUF",
+  "repository": "CompiledThoughts/Qwen3.8-Flash-Next-NVFP4-Q8_0",
+  "revision": "d0f5c6667cea078100caea35835ed08f6ed66608",
+  "file": {
+    "name": "Qwen3.8-Flash-Next-NVFP4-Q8_0.gguf",
+    "size": 127809147712,
+    "sha256": "04124cb939a1ae968b53ce101b222a8eaf56bcb6742bae1976bede373b811a27",
+    "url": "https://huggingface.co/CompiledThoughts/Qwen3.8-Flash-Next-NVFP4-Q8_0/resolve/d0f5c6667cea078100caea35835ed08f6ed66608/Qwen3.8-Flash-Next-NVFP4-Q8_0.gguf?download=true"
+  },
+  "path_relative_to_home": "models/Qwen3.8-Flash-Next-NVFP4-Q8_0/Qwen3.8-Flash-Next-NVFP4-Q8_0.gguf",
+  "alias": "qwen3.8-flash-next-nvfp4",
+  "native_context_tokens": 262144,
+  "vision_encoder": false,
+  "mtp_head": false,
+  "runtime": {
+    "threads": 16,
+    "threads_batch": 16,
+    "load_mode": "none",
+    "context": 131072,
+    "ubatch": 1024,
+    "engine": "llama.cpp",
+    "host": "127.0.0.1",
+    "port": 8081,
+    "parallel": 1,
+    "fit_target_mib": 2048,
+    "cache_type_k": "q8_0",
+    "cache_type_v": "q8_0",
+    "flash_attention": "on",
+    "jinja": true,
+    "context_shift": false
+  },
+  "prior_weight_buffer_placement_mib": {
+    "CUDA0": 24793.18,
+    "CUDA_Host": 45204.52,
+    "CPU_Mapped": 51880.13
+  },
+  "reasoning": {
+    "enabled": true,
+    "effort": "xhigh",
+    "budget": -1,
+    "format": "deepseek"
+  },
+  "sampler": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0,
+    "presence_penalty": 0,
+    "repeat_penalty": 1
+  },
+  "software_observed": {
+    "llama_cpp": "0.4.0-dev build 10883 commit 91f6a6cf3",
+    "codewhale": "0.9.13 a0b81f619b66"
+  },
+  "validation": {
+    "full_sha256": "Verified by the existing download receipt; not rehashed during repository setup.",
+    "local_file": "Size and GGUF v3 header checked during setup.",
+    "runtime": "Settings reused from a prior local coding benchmark. No inference run started for this experiment."
+  }
+}
