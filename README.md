@@ -2,7 +2,7 @@
 
 Measure the human intervention needed for a local Qwen Flash model to reverse engineer the DOS version of **War of the Lance** and reproduce its rules and rendering in a browser.
 
-The motivating [article](https://this.os.isfine.org/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/) reports a Qwen3.8-Flash-Next port in about a week with less than four hours of dedicated human attention. Run 001 has passed model/tool and context-compaction preflight and is being launched on its recorded branch; no gameplay fidelity has yet been established. The exact model, quantization, harness, hardware and context settings must be recorded before a run; differences from the author's setup limit direct comparison.
+The motivating [article](https://this.os.isfine.org/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/) reports a Qwen3.8-Flash-Next port in about a week with less than four hours of dedicated human attention. Run 001 has passed model/tool and context-compaction preflight and is running on its recorded branch; no gameplay fidelity has yet been established. The exact model, quantization, harness, hardware and context settings must be recorded before a run; differences from the author's setup limit direct comparison.
 
 ## Inputs
 
