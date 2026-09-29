@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.csv text eol=lf
+assets/SHA256SUMS text eol=lf
+assets/original/** binary
+assets/dos/** binary

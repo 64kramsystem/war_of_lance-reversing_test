@@ -1,0 +1,30 @@
+/.claude/settings.local.json
+
+# Ghidra transient project artifacts
+*.lock
+*.lock~
+*.ps
+~index.bak
+~journal.bak
+projectState
+
+# Machine settings, credentials, and working data
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.toml
+.venv/
+__pycache__/
+node_modules/
+.DS_Store
+/scratch/
+/runs/
+/models/
+
+# Supply clean DOS runtime prerequisites locally; never publish used disks.
+/assets/ms_dos_500/
+/assets/DEBUG.COM
+
+# Live Ghidra projects may contain host paths and debugger traces.
+/ghidra/live/

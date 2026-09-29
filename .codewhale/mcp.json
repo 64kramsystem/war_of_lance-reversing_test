@@ -1,0 +1,32 @@
+{
+  "timeouts": {
+    "connect_timeout": 10,
+    "execute_timeout": 60,
+    "read_timeout": 120
+  },
+  "servers": {
+    "ghidra-mcp": {
+      "args": [
+        "--transport",
+        "stdio",
+        "--no-lazy"
+      ],
+      "command": "../../local/ghidra-mcp-next/.venv/bin/ghidra-mcp-bridge",
+      "env": {
+        "GHIDRA_DEBUGGER_URL": "http://127.0.0.1:8099",
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "enabled": true,
+      "required": true
+    },
+    "dos-mcp": {
+      "command": "../../local/dos-mcp/.venv/bin/dos-mcp",
+      "env": {
+        "DOSBOX_X_QMP_PORT": "4444",
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "enabled": true,
+      "required": true
+    }
+  }
+}

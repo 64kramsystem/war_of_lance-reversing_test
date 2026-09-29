@@ -1,0 +1,6 @@
+- Run original and rebuilt DOS executables only in a DOSBox-X guest controlled through `dos-mcp`.
+- Boot a scratch copy of `assets/ms_dos_500/ms_dos_500_hdd.img` as BIOS drive 2 with geometry `512,63,2,520`, dummy SDL, and other host integrations disabled. Never mount the tracked base image writable.
+- Use guest `assets/DEBUG.COM` and a Ghidra entry breakpoint when tracing DOS loading; next-EXEC can miss guest-owned DOS EXEC.
+- Never execute samples on the host; boot only a scratch copy of `assets/ms_dos_500/ms_dos_500_hdd.img` as BIOS drive 2 (`-size 512,63,2,520`) in a DOSBox-X guest controlled only via `dos-mcp`, with dummy SDL and every other integration disabled; never mount the tracked base image writable.
+- Use guest `assets/DEBUG.COM` and a Ghidra entry breakpoint; next-EXEC misses guest-owned DOS EXEC.
+- For suspect DOSBox-X stops with guest TF set, use a harmless control to detect spurious INT 1 delivery.

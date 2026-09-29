@@ -1,0 +1,317 @@
+{
+  "title": "War of the Lance",
+  "platform": "DOS",
+  "release_year": 1990,
+  "retrieved_at_utc": "2026-09-29T16:05:10.532000+00:00",
+  "source_page": "https://www.myabandonware.com/game/war-of-the-lance-11z",
+  "downloads": [
+    {
+      "path": "assets/original/War-of-The-Lance_DOS.zip",
+      "url": "https://www.myabandonware.com/download/lgm5-war-of-the-lance",
+      "bytes": 195214,
+      "sha256": "462f528ea908a950cb76b0090c44383134a5a78906e3377b3e0b3fd38b801a7a"
+    },
+    {
+      "path": "assets/original/War-of-The-Lance_Manual_DOS_EN.pdf",
+      "url": "https://www.myabandonware.com/download/m4x9-war-of-the-lance",
+      "bytes": 4494990,
+      "sha256": "2ee8ed73a5d87d1fa802dc09974ecf30cfdf369e163655fac2481dafa7e47e01"
+    }
+  ],
+  "extracted_files": [
+    {
+      "archive_path": "war-of-the-lance/BORDER.SHP",
+      "path": "assets/dos/BORDER.SHP",
+      "bytes": 47,
+      "sha256": "86dd8ce8a381d26e7d9c40c082ca40aa6c39d24816a6a7858d83a23b5d5c5260"
+    },
+    {
+      "archive_path": "war-of-the-lance/COMBAT.SHP",
+      "path": "assets/dos/COMBAT.SHP",
+      "bytes": 13767,
+      "sha256": "c59363edc208dbfe1d03b40f15263ec6a1d56c1528ac33fd706bd76144cb6bd6"
+    },
+    {
+      "archive_path": "war-of-the-lance/INIT.BIN",
+      "path": "assets/dos/INIT.BIN",
+      "bytes": 135,
+      "sha256": "e901d40b1fc860365fe2b0bf9eec57d9fffe0ae5c90dabc3c0308dfc87e8b01e"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP0.BIN",
+      "path": "assets/dos/MAP0.BIN",
+      "bytes": 207,
+      "sha256": "7b5ee60aa4021c728a24c4409c3005f32f1d0dda90d516da351e8ef77794a961"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP1.BIN",
+      "path": "assets/dos/MAP1.BIN",
+      "bytes": 207,
+      "sha256": "83bb865ac5ff192797337031b9662c4c4798394667006cd0fc8a3c44e42afec7"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP10.BIN",
+      "path": "assets/dos/MAP10.BIN",
+      "bytes": 207,
+      "sha256": "c635ff198713937bb007f713bf047422835e5cdefad097949b3381df915ae107"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP11.BIN",
+      "path": "assets/dos/MAP11.BIN",
+      "bytes": 207,
+      "sha256": "94fd5b088c5d83524fae29b39f91ef45504b5f9efa8ec3179ec59d7731d1b929"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP12.BIN",
+      "path": "assets/dos/MAP12.BIN",
+      "bytes": 207,
+      "sha256": "372e4461279093dd0d82e865ed00f5f71fc41ba3bcb8505ec967962598b891c2"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP13.BIN",
+      "path": "assets/dos/MAP13.BIN",
+      "bytes": 207,
+      "sha256": "47ade26ba91fe6dafb8d5cacb6fff3ddc8cadff65301338b391f3b3a81ce77f5"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP14.BIN",
+      "path": "assets/dos/MAP14.BIN",
+      "bytes": 207,
+      "sha256": "932a97c2a6fe8d5229a3031ea8b91b59ed5bd0013005ecd336f1ab7642ea2dcd"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP15.BIN",
+      "path": "assets/dos/MAP15.BIN",
+      "bytes": 207,
+      "sha256": "9751ff4f34a7189764132e8912588b92bbe0eee32e9eb9d8001419a019e44af7"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP16.BIN",
+      "path": "assets/dos/MAP16.BIN",
+      "bytes": 207,
+      "sha256": "da916cce35b243ff5a4a6413f9ec9836ccd4f20041f780bb975a11579fab5c13"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP17.BIN",
+      "path": "assets/dos/MAP17.BIN",
+      "bytes": 207,
+      "sha256": "09c8e97f3c9e8802d1f2abb0cd6a1f28c4d30bb93eb4ad1247b6233151bb6ead"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP2.BIN",
+      "path": "assets/dos/MAP2.BIN",
+      "bytes": 207,
+      "sha256": "e790f432370a57b9c0b26da57bc9572f798db0e270811656f4f8ad9d13273513"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP3.BIN",
+      "path": "assets/dos/MAP3.BIN",
+      "bytes": 207,
+      "sha256": "f96a40bfe06f78194d38e31206fb7e1244392af1247a51edf86601c06c82d6da"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP4.BIN",
+      "path": "assets/dos/MAP4.BIN",
+      "bytes": 207,
+      "sha256": "9a606860f90936ef9e77940c57f75eec5f1be66d19429cd8bf3fba3d788b7dfa"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP5.BIN",
+      "path": "assets/dos/MAP5.BIN",
+      "bytes": 207,
+      "sha256": "b87b61f02e0ec57cd93e87c94af9f85924ed99f227879890ec21019377fe8517"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP6.BIN",
+      "path": "assets/dos/MAP6.BIN",
+      "bytes": 207,
+      "sha256": "b5f891f2f68242c18777a8434ff30d2e1d666218307593574e921aa8b85e1757"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP7.BIN",
+      "path": "assets/dos/MAP7.BIN",
+      "bytes": 207,
+      "sha256": "83781006622996421971f934dd64cfc8ce15f183a29549626d08ecca624b7ab5"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP8.BIN",
+      "path": "assets/dos/MAP8.BIN",
+      "bytes": 207,
+      "sha256": "5c58b12fb1f81b01239a2ad9fd0500643612953e0a5e23a05d204f66c45609f4"
+    },
+    {
+      "archive_path": "war-of-the-lance/MAP9.BIN",
+      "path": "assets/dos/MAP9.BIN",
+      "bytes": 207,
+      "sha256": "4c0ee823014828f63891f5428416e86088057652aa21467c52d6b53920b10992"
+    },
+    {
+      "archive_path": "war-of-the-lance/MENU.DAT",
+      "path": "assets/dos/MENU.DAT",
+      "bytes": 302,
+      "sha256": "151bdf859d947ce99545a4f914ce03f43879f1a5fcd9961ecb6e525beabc3e30"
+    },
+    {
+      "archive_path": "war-of-the-lance/NAT.DAT",
+      "path": "assets/dos/NAT.DAT",
+      "bytes": 232,
+      "sha256": "1c2ab2ddf1ce937a3df4379c1518d8ebcac4789938f6d23d0e460ef3247e1895"
+    },
+    {
+      "archive_path": "war-of-the-lance/P0.BIN",
+      "path": "assets/dos/P0.BIN",
+      "bytes": 3879,
+      "sha256": "50db4953d81a121f1039a54f36e88557ed3c92ed07ca4d5a61297481fc39daa0"
+    },
+    {
+      "archive_path": "war-of-the-lance/P1.BIN",
+      "path": "assets/dos/P1.BIN",
+      "bytes": 3879,
+      "sha256": "8038ad3fdb94560f9eb72af0189fbdb72684092578c3ffaae8cef5fa4bae1c6a"
+    },
+    {
+      "archive_path": "war-of-the-lance/P10.BIN",
+      "path": "assets/dos/P10.BIN",
+      "bytes": 3879,
+      "sha256": "4687e426a38a773c2252554d4ff3d3589f54be3b6f7afde25a7151405a63679c"
+    },
+    {
+      "archive_path": "war-of-the-lance/P11.BIN",
+      "path": "assets/dos/P11.BIN",
+      "bytes": 3879,
+      "sha256": "540e749096b93d3ed5e97310ab8eb6b0a435a54921d56f9b0c7b773786e40be5"
+    },
+    {
+      "archive_path": "war-of-the-lance/P12.BIN",
+      "path": "assets/dos/P12.BIN",
+      "bytes": 3879,
+      "sha256": "af1ae2c677aff379d7514120a7968c880103e0bafafa3d757f5fd5fcec798e05"
+    },
+    {
+      "archive_path": "war-of-the-lance/P2.BIN",
+      "path": "assets/dos/P2.BIN",
+      "bytes": 3879,
+      "sha256": "fc372809316c8b43a7c0e774ab596019d4aff0348044146db3797b3857450697"
+    },
+    {
+      "archive_path": "war-of-the-lance/P3.BIN",
+      "path": "assets/dos/P3.BIN",
+      "bytes": 3879,
+      "sha256": "a407877dc850ba42a8d95188ad6ed620bd1e479bdb176caf345a7d9b2c6d8e30"
+    },
+    {
+      "archive_path": "war-of-the-lance/P4.BIN",
+      "path": "assets/dos/P4.BIN",
+      "bytes": 3879,
+      "sha256": "686a960c80a81480a00de99f1a80a6c1b6fe5278bc1eb21a5f9e11da5637092e"
+    },
+    {
+      "archive_path": "war-of-the-lance/P5.BIN",
+      "path": "assets/dos/P5.BIN",
+      "bytes": 3879,
+      "sha256": "ef8a2ff9020cb7241d9f252e16f648c0e16b0bc7a2fc29b77e3daae4f9b4c7ae"
+    },
+    {
+      "archive_path": "war-of-the-lance/P6.BIN",
+      "path": "assets/dos/P6.BIN",
+      "bytes": 3879,
+      "sha256": "4ddf4ce48781243783d13a0217c6cc2b101e8953360d84b0fb4d6096f2e06319"
+    },
+    {
+      "archive_path": "war-of-the-lance/P7.BIN",
+      "path": "assets/dos/P7.BIN",
+      "bytes": 3879,
+      "sha256": "e5ec2b2b95813b881bf40acae11b9665e7ce088cb23fc061299c4c593bdecd0f"
+    },
+    {
+      "archive_path": "war-of-the-lance/P8.BIN",
+      "path": "assets/dos/P8.BIN",
+      "bytes": 3879,
+      "sha256": "28ca358dd924423d3a8368dbb2017f99b79b28ce56bdeb6534c580ed3744cd7d"
+    },
+    {
+      "archive_path": "war-of-the-lance/P9.BIN",
+      "path": "assets/dos/P9.BIN",
+      "bytes": 3879,
+      "sha256": "0afc41687d7844d1901a1b69c30f54a206ebbf1b94cf85f23eeaaf2d6748987a"
+    },
+    {
+      "archive_path": "war-of-the-lance/Q1.DAT",
+      "path": "assets/dos/Q1.DAT",
+      "bytes": 6963,
+      "sha256": "31f6ad0de6ecf8c7cc9f8f4801dcb4d637c9d9769aa850ff352813b70c9653e1"
+    },
+    {
+      "archive_path": "war-of-the-lance/Q2.DAT",
+      "path": "assets/dos/Q2.DAT",
+      "bytes": 5779,
+      "sha256": "bc68d31fa3d378acbcd61bd4d44cefe0ebccd90a26f1e8663b44d3bf4b1a50ae"
+    },
+    {
+      "archive_path": "war-of-the-lance/SCEN.DAT",
+      "path": "assets/dos/SCEN.DAT",
+      "bytes": 6149,
+      "sha256": "1fee7c595bdcc395020cf8d479015b1219324241173358aa3e8ba069ec0f30bc"
+    },
+    {
+      "archive_path": "war-of-the-lance/SCEN.MAP",
+      "path": "assets/dos/SCEN.MAP",
+      "bytes": 3367,
+      "sha256": "31882fca4025478e863f5344b7ead12479396224d5948351052c978f22786bcc"
+    },
+    {
+      "archive_path": "war-of-the-lance/SCEN.UNT",
+      "path": "assets/dos/SCEN.UNT",
+      "bytes": 1607,
+      "sha256": "6f6914ee417c0af57ea16aaefb8c2b8f525861505b16449e85b52dad8bf6d9d0"
+    },
+    {
+      "archive_path": "war-of-the-lance/START.EXE",
+      "path": "assets/dos/START.EXE",
+      "bytes": 317720,
+      "sha256": "6e5943abd2836434daeb6d867c96d38c743e4c364ee15c73b45ab9cb7704c8e6"
+    },
+    {
+      "archive_path": "war-of-the-lance/STR.SHP",
+      "path": "assets/dos/STR.SHP",
+      "bytes": 3887,
+      "sha256": "ab78730aa36d9a44178dd1964898f44ee5c7f5631d077a8a0d39a9ecd163abbc"
+    },
+    {
+      "archive_path": "war-of-the-lance/WL.DAT",
+      "path": "assets/dos/WL.DAT",
+      "bytes": 3674,
+      "sha256": "7741c13b46d0c7c2fb47c196d57bf935612d40e07d5257a6db560107e52e1511"
+    },
+    {
+      "archive_path": "war-of-the-lance/WL.MAP",
+      "path": "assets/dos/WL.MAP",
+      "bytes": 3367,
+      "sha256": "9a385b393d551960d4be679bea620a9cf696063ec76ff87776bbf505514f039d"
+    },
+    {
+      "archive_path": "war-of-the-lance/WL.SHP",
+      "path": "assets/dos/WL.SHP",
+      "bytes": 15527,
+      "sha256": "8aa51ab416d3b75bc1f50b099d71ad3c3430ba426d4b0f5c0223e7159ce8a606"
+    },
+    {
+      "archive_path": "war-of-the-lance/WL.UNT",
+      "path": "assets/dos/WL.UNT",
+      "bytes": 1607,
+      "sha256": "a2e5b03a0a354da83a2b196002baf1ecde7226946168af87ef1f9fbc68c13025"
+    },
+    {
+      "archive_path": "war-of-the-lance/WL2.DAT",
+      "path": "assets/dos/WL2.DAT",
+      "bytes": 2412,
+      "sha256": "4e0f38aa5178cb93ed71c7688c6807659c28b0779b490c80a0e15d5671c23cb2"
+    }
+  ],
+  "notes": [
+    "The source archive is preserved byte-for-byte.",
+    "Extraction removes only the outer war-of-the-lance directory.",
+    "The source distribution may contain historical modifications; original retail equivalence has not been verified.",
+    "Game binaries have not been executed."
+  ]
+}

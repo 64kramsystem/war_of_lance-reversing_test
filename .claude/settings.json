@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ghidra-mcp",
+      "mcp__ghidra-mcp__*",
+      "mcp__dos-mcp",
+      "mcp__dos-mcp__*"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}

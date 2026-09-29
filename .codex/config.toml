@@ -1,0 +1,16 @@
+[mcp_servers.ghidra-mcp]
+command = "../../local/ghidra-mcp-next/.venv/bin/ghidra-mcp-bridge"
+args = ["--transport", "stdio", "--no-lazy"]
+default_tools_approval_mode = "approve"
+
+[mcp_servers.ghidra-mcp.env]
+GHIDRA_DEBUGGER_URL = "http://127.0.0.1:8099"
+PYTHONIOENCODING = "utf-8"
+
+[mcp_servers.dos-mcp]
+command = "../../local/dos-mcp/.venv/bin/dos-mcp"
+default_tools_approval_mode = "approve"
+
+[mcp_servers.dos-mcp.env]
+DOSBOX_X_QMP_PORT = "4444"
+PYTHONIOENCODING = "utf-8"
